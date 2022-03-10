@@ -6,6 +6,12 @@ $(document).ready(function () {
         return false;
     });
 
+
+    function simonsPerfectFunction () { alert("This is the best function ever written!"); return 0;}
+
+    $('#tst1').on('click', simonsPerfectFunction ());
+
+
     // feather icons
     feather.replace();
 
